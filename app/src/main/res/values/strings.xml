@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ESS App</string>
+    <string name="title">ESS - Gestion Etudiant</string>
+
+    <string name="nom">Nom :</string>
+    <string name="prenom">Prenom :</string>
+
+    <string name="hint_nom">Entrer le nom</string>
+    <string name="hint_prenom">Entrer le prenom</string>
+
+    <string name="ajouter">Ajouter</string>
+
+    <string name="code">Code Etudiant :</string>
+    <string name="hint_code">Entrer le code</string>
+
+    <string name="chercher">Chercher</string>
+    <string name="result">Résultat ici...</string>
+    <string name="supprimer">Supprimer</string>
+</resources>

@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#FFF0F5"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ESS - Gestion Etudiant"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:paddingBottom="15dp" />
+
+    <TextView
+        android:text="Nom"
+        android:textColor="#E91E63"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/essNom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:hint="Entrer le nom"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:text="Prenom"
+        android:textColor="#E91E63"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/essPrenom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:hint="Entrer le prenom"
+        android:padding="10dp"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/essBtnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Ajouter"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:text="Code Etudiant"
+        android:textColor="#E91E63"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/essCode"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:hint="Entrer le code"
+        android:inputType="number"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/essBtnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Chercher"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#E91E63"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/essResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Résultat ici..."
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:background="#E8F5E9"
+        android:padding="12dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/essBtnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Supprimer"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#F44336" />
+
+</LinearLayout>
